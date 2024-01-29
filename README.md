@@ -1,2 +1,3 @@
 # CMPUT455
-Collection of assignments for CMPUT 455
+Collection of Ninuki (a variant of the game Go) assignments for CMPUT 455
+
