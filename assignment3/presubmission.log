@@ -1,0 +1,6 @@
+Script started on 2023-11-13 20:10:46-07:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="80" LINES="30"]
+chonghua@ug01:~/cmput455>java -jar gogui/lib/gogui-regress.jar assignment3/Ninuki.py assignment3/assignment3-public-tests.gtp
+chonghua@ug01:~/cmput455>exit
+exit
+
+Script done on 2023-11-13 20:10:56-07:00 [COMMAND_EXIT_CODE="0"]

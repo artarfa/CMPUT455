@@ -1,0 +1,91 @@
+Script started on 2023-12-06 22:38:56-07:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+dsguo@ug02:~>tar -xvzf assignment4.tgz -C emptyDir[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcp assignment4.tgz emptyDir
+dsguo@ug02:~>cd emptyDir
+dsguo@ug02:~/emptyDir>ls
+assignment4.tgz
+dsguo@ug02:~/emptyDir>[Kdsguo@ug02:~/emptyDir>tar -xvzf assignment4.tgz
+assignment4/
+assignment4/assignment1.tgz
+assignment4/game_results.txt
+assignment4/team7/
+assignment4/team7/board_base.py
+assignment4/team7/__pycache__/
+assignment4/team7/__pycache__/board_base.cpython-38.pyc
+assignment4/team7/__pycache__/board_util.cpython-38.pyc
+assignment4/team7/__pycache__/engine.cpython-38.pyc
+assignment4/team7/__pycache__/board.cpython-38.pyc
+assignment4/team7/__pycache__/gtp_connection.cpython-38.pyc
+assignment4/team7/Ninuki.py
+assignment4/team7/board.py
+assignment4/team7/engine.py
+assignment4/team7/gtp_connection.py
+assignment4/team7/board_util.py
+assignment4/readme.txt
+assignment4/ab_player/
+assignment4/ab_player/board.py
+assignment4/ab_player/Ninuki-ab.py
+assignment4/ab_player/engine.py
+assignment4/ab_player/board_util.py
+assignment4/ab_player/board_base.py
+assignment4/ab_player/gtp_connection.py
+assignment4/random_player/
+assignment4/random_player/board_base.py
+assignment4/random_player/gtp_connection.py
+assignment4/random_player/__pycache__/
+assignment4/random_player/__pycache__/engine.cpython-38.pyc
+assignment4/random_player/__pycache__/gtp_connection.cpython-38.pyc
+assignment4/random_player/__pycache__/board.cpython-38.pyc
+assignment4/random_player/__pycache__/board_base.cpython-38.pyc
+assignment4/random_player/__pycache__/board_util.cpython-38.pyc
+assignment4/random_player/Ninuki-random.py
+assignment4/random_player/board_util.py
+assignment4/random_player/engine.py
+assignment4/random_player/board.py
+assignment4/play.py
+dsguo@ug02:~/emptyDir>ls
+assignment4  assignment4.tgz
+dsguo@ug02:~/emptyDir>cd assignment4
+dsguo@ug02:~/emptyDir/assignment4>ls
+ab_player	 game_results.txt  random_player  team7
+assignment1.tgz  play.py	   readme.txt
+dsguo@ug02:~/emptyDir/assignment4>python3.[K play.py
+player1: team7/Ninuki.py
+player2: random_player/Ninuki-random.py
+Game:  1
+f7
+e5
+c3
+f3
+d1
+c6
+e6
+a3
+e7
+g5
+f1
+g4
+d4
+g3
+g6
+c7
+a4
+a7
+f6
+b5
+c5
+b6
+f4
+f2
+c2
+b4
+e1
+a1
+c1
+a2
+b1
+player1 wins
+player1 win 1 player2 win 0 draw 0
+dsguo@ug02:~/emptyDir/assignment4>exit
+exit
+
+Script done on 2023-12-06 22:42:08-07:00 [COMMAND_EXIT_CODE="0"]

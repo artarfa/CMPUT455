@@ -1,0 +1,35 @@
+Script started on 2023-09-18 16:26:22-06:00 [TERM="xterm" TTY="/dev/pts/38" COLUMNS="93" LINES="29"]
+dsguo@ug01:~/gogui/lib>ls
+New		   gogui-convert.jar  gogui-statistics.jar   index.html
+assignment1	   gogui-display.jar  gogui-terminal.jar     presubmission.log
+assignment1.tgz    gogui-dummy.jar    gogui-thumbnailer.jar  summary.dat
+gogui-adapter.jar  gogui-regress.jar  gogui-twogtp.jar
+gogui-client.jar   gogui-server.jar   gogui.jar
+dsguo@ug01:~/gogui/lib>cp assignment1.tgz New/
+dsguo@ug01:~/gogui/lib>cd New
+dsguo@ug01:~/gogui/lib/New>cd as[K[K[K[K[Ktar -xvzf assignment1.tgz
+assignment1/
+assignment1/Go0.py
+assignment1/__pycache__/
+assignment1/__pycache__/board_base.cpython-310.pyc
+assignment1/__pycache__/board_util.cpython-310.pyc
+assignment1/__pycache__/engine.cpython-310.pyc
+assignment1/__pycache__/gtp_connection.cpython-310.pyc
+assignment1/__pycache__/board.cpython-310.pyc
+assignment1/board_base.py
+assignment1/assignment1-public-tests.gtp
+assignment1/board_util.py
+assignment1/gtp_connection.py
+assignment1/engine.py
+assignment1/board.py
+dsguo@ug01:~/gogui/lib/New>ls
+assignment1  assignment1.tgz
+dsguo@ug01:~/gogui/lib/New>cd assignment1
+dsguo@ug01:~/gogui/lib/New/assignment1>chmod u+x [K Go0.py
+dsguo@ug01:~/gogui/lib/New/assignment1>cd ..
+dsguo@ug01:~/gogui/lib/New>cd ..
+dsguo@ug01:~/gogui/lib>java -jar gogui-regress.jar New/assignment1/Go0.py New/assignment1/assignment1-public-tests.gtp
+dsguo@ug01:~/gogui/lib>exit
+exit
+
+Script done on 2023-09-18 16:28:09-06:00 [COMMAND_EXIT_CODE="0"]

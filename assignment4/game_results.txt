@@ -1,0 +1,5 @@
+player 1: team7/Ninuki.py
+player 2: random_player/Ninuki-random.py
+player 1 wins 1
+player 2 wins 0
+draw 0

@@ -1,0 +1,8 @@
+Script started on 2023-10-16 23:17:50-06:00 [TERM="xterm-256color" TTY="/dev/pts/36" COLUMNS="80" LINES="30"]
+chonghua@ohaton:~/cmput455>java -jar gogui/lib/gogui-regress.jar assignment2/Ninuki.py assignment2/a2_public_easy.gtp
+50 unexpected FAIL: Correct 'e5', got ''
+60 unexpected FAIL: Correct 'draw c3', got ''
+chonghua@ohaton:~/cmput455>exit
+exit
+
+Script done on 2023-10-16 23:18:30-06:00 [COMMAND_EXIT_CODE="1"]
